@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+}
+.work{
+    background-color: white;
+    height: 1000px;
+    margin-left: 2% ;
+    margin-right: 2%;
+}
+
+#call{
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: rgb(155, 24, 24);
+    font-weight:600 !important;
+    font-size:170%;
+    font-family: Verdana;
+    text-decoration: underline;
+    text-decoration-color: rgb(110, 109, 109);
+     text-decoration-thickness: 3px; /* underline thickness */
+    /* -moz-text-decoration-color: #0000ff; */
+    text-underline-offset: 10px; /* height of underline from text*/
+}
+.number{
+    font-weight:600 !important;
+    font-size:40px;
+    font-family: Verdana;
+}
+.navbar {
+    background-color:rgb(155, 24, 24)  !important;
+    position: relative;
+   box-shadow:5px 2px 3px 5px rgba(0, 0, 0, 0.1)  !important;
+   transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+a{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color:white !important;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: #928e8e !important;
+    border-radius: 0%;
+}
+a:active{
+    background-color: #928e8e !important;
+    color: #928e8e !important;
+}
+  
